@@ -12,6 +12,7 @@ class EmployeeManagementSystem:
             }
             self.employees.append(employee)
 
+
     def get_employee_by_id(self, emp_id):
         for employee in self.employees:
             if employee['id'] == emp_id:
